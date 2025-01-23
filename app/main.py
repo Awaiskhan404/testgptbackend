@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 from app.routers import health, chat
-from mangum import Mangum
 
 app = FastAPI()
 
@@ -9,7 +8,6 @@ app.include_router(health.router)
 app.include_router(chat.router)
 
 
-handler = Mangum(app)
 
 # Start point for the application
 if __name__ == "__main__":
