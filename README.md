@@ -4,6 +4,8 @@ This project is a FastAPI-based backend with a scalable and modular directory st
 
 ---
 
+Live Demo: [https://repulsive-marylynne-0x194-7a5f566a.koyeb.app](https://repulsive-marylynne-0x194-7a5f566a.koyeb.app)
+
 ## **Directory Structure**
 
 The project is organized as follows:
